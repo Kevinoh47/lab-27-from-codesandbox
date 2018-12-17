@@ -1,7 +1,7 @@
 {
-  "name": "starter-code-27",
+  "name": "lab-27-from-codesandbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "![CF](http://i.imgur.com/7v5ASc8.png) LAB =================================================",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
@@ -25,7 +25,20 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "jest": {
-    "setupTestFrameworkScriptFile": "<rootDir>__tests__/jest-setup.js"
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevinoh47/lab-27-from-codesandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevinoh47/lab-27-from-codesandbox/issues"
+  },
+  "homepage": "https://github.com/Kevinoh47/lab-27-from-codesandbox#readme"
 }

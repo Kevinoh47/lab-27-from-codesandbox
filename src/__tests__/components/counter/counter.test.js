@@ -1,5 +1,6 @@
+import React from 'react';
 import renderer from "react-test-renderer";
-import Counter from "components/counter/counter.js"; //hard coded to avoid .env issue
+import Counter from "../../../../src/components/counter/counter.js";   //hard coded to avoid .env issue
 
 describe("counter", () => {
   it("is alive at application start", () => {
