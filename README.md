@@ -3,40 +3,41 @@
 
 ## LAB - React Testing and Deployment (Lab 27)
 
+[![Build Status](https://travis-ci.com/Kevinoh47/lab-27-from-codesandbox.svg?branch=working27)](https://travis-ci.com/Kevinoh47/lab-27-from-codesandbox)
+
 ### Author: Kevin O'Halloran
 
 ### Links and Resources
 * [repo](https://github.com/Kevinoh47/lab-27-from-codesandbox)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [travis](https://travis-ci.com/Kevinoh47/lab-27-from-codesandbox)
+* [front-end, deployed:](http://lab-27-401.s3-website-us-west-2.amazonaws.com/)
+
+Note that the amazon deployment is not working correctly because paths to the js are incorrect. I have tried deploying twice with the same results.
 
 ### Modules
-#### `modulename.js`
+#### `counter.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `render() -> React.Fragment`
+render returns a section that includes links to add or subtract from the counter, and a span class that contains the counter itself, which is a react state object. 
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `handleUp `
+an event handler that takes a click event and increments the counter.
+
+###### `handleDown `
+an event handler that takes a click event and decrements the counter.
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `localhost:3000`
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* npm run tests
+* assert is alive at application start.
+* assert changes state by decrementing the counter when down link is clicked.
+* assert changes state by incrementing the counter when up link is clicked. 
 
 #### UML
-Link to an image of the UML for your application and response to events
+lab-27-component-based-ui-react-uml.jpg
