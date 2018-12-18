@@ -41,4 +41,4 @@ an event handler that takes a click event and decrements the counter.
 * assert changes state by incrementing the counter when up link is clicked. 
 
 #### UML
-lab-27-component-based-ui-react-uml.jpg
+![UML](lab-27-component-based-ui-react-uml.jpg)
