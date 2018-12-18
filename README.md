@@ -10,7 +10,8 @@
 ### Links and Resources
 * [repo](https://github.com/Kevinoh47/lab-27-from-codesandbox)
 * [travis](https://travis-ci.com/Kevinoh47/lab-27-from-codesandbox)
-* [front-end, deployed:](http://lab-27-401.s3-website-us-west-2.amazonaws.com/)
+* [AWS](http://lab-27-401.s3-website-us-west-2.amazonaws.com/)
+* [codesandbox](https://codesandbox.io/s/x9vl046jmp)
 
 Note that the amazon deployment is not working correctly because paths to the js are incorrect. I have tried deploying twice with the same results.
 
