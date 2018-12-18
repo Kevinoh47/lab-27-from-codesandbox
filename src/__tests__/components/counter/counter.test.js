@@ -1,9 +1,9 @@
 import React from 'react';
 import renderer from "react-test-renderer";
 
-// import Counter from "../../../../src/components/counter/counter.js";   //hard coded to avoid .env issue
+import Counter from "../../../../src/components/counter/counter.js";   //hard coded to avoid .env issue
 
-import Counter from "components/counter/counter.js"; //hard coded to avoid .env issue
+// import Counter from "components/counter/counter.js"; //this is supposed to work with the .env setting, but since .env is not uploaded this fails on travis.ci....
 
 
 describe("counter", () => {
